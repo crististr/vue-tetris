@@ -286,16 +286,19 @@ b.d:after {
     left: auto;
     bottom: 5%;
     display: none;
+    display: none;
 }
 
 .guide p {
     text-align: left;
     margin-bottom: 350px;
     opacity: .5
+    display: none;
 }
 
 .guide p iframe {
-    margin-top: 20px
+    margin-top: 20px;
+    display: none;
 }
 
 .guide a {
@@ -304,7 +307,8 @@ b.d:after {
     position: relative;
     z-index: 1;
     cursor: alias;
-    text-decoration: none
+    text-decoration: none;
+    display: none;
 }
 
 .guide.qr {
@@ -320,12 +324,14 @@ b.d:after {
 
 .guide.qr:hover img {
     width: 100%;
-    height: 100%
+    height: 100%;
+    display: none;
 }
 
 .guide.qr img {
     width: 38px;
-    height: 38px
+    height: 38px;
+    display: none;
 }
 
 .guide>div {
@@ -336,7 +342,8 @@ b.d:after {
     border-radius: 4px;
     position: relative;
     color: #acc3c1;
-    font-size: 16px
+    font-size: 16px;
+    display: none;
 }
 
 .guide>div em {
@@ -348,7 +355,8 @@ b.d:after {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -9px 0 0 -6px
+    margin: -9px 0 0 -6px;
+    display: none;
 }
 
 .guide>div:after,
@@ -361,21 +369,25 @@ b.d:after {
     top: 0;
     left: 0;
     border-radius: 4px;
-    box-shadow: inset 0 5px 10px hsla(0, 0%, 100%, .15)
+    box-shadow: inset 0 5px 10px hsla(0, 0%, 100%, .15);
+    display: none;
 }
 
 .guide>div:before {
     box-shadow: inset 0 -5px 10px rgba(0, 0, 0, .15)
+    display: none;
 }
 
 .guide .up {
     height: 60px;
     display: block;
-    margin: 0 auto 2px
+    margin: 0 auto 2px;
+    display: none;
 }
 
 .guide .down {
-    margin: 0 10px
+    margin: 0 10px;
+    display: none;
 }
 
 .guide .space {
@@ -384,7 +396,8 @@ b.d:after {
     height: 80px;
     width: 400px;
     line-height: 80px;
-    letter-spacing: 2px
+    letter-spacing: 2px;
+    display: none;
 }
 
 .next div {
